@@ -22,7 +22,7 @@ def image_resize(image, width = None, height = None, inter = cv.INTER_AREA):
     resized = cv.resize(image, dim, interpolation = inter)
     return resized
 
-path = 'images/'
+path = 'Samples/images/'
 
 print("NOTE: the window with the sample image must be in focus for this program to work.")
 print("i.e: click on the image before starting")
@@ -46,32 +46,32 @@ while (len(os.listdir(path)) > 6 ):
                 key = cv.waitKey(0)
                 if(key == ord('0')):
                     print(filename, " Saved as:  0")
-                    cv.imwrite('images/0/' + filename, copy)
-                    cv.imwrite('images/sorted/' + filename, img)
+                    cv.imwrite('Samples/images/0/' + filename, copy)
+                    cv.imwrite('Samples/images/sorted/' + filename, img)
                     os.remove(path + filename)
                     flag = 0
                 elif(key == ord('1')):
                     print(filename, " Saved as:  1")
-                    cv.imwrite('images/1/' + filename, copy)
-                    cv.imwrite('images/sorted/' + filename, img)
+                    cv.imwrite('Samples/images/1/' + filename, copy)
+                    cv.imwrite('Samples/images/sorted/' + filename, img)
                     os.remove(path + filename)
                     flag = 0
                 elif(key == ord('2')):
                     print(filename, " Saved as:  2")
-                    cv.imwrite('images/2/' + filename, copy)
-                    cv.imwrite('images/sorted/' + filename, img)
+                    cv.imwrite('Samples/images/2/' + filename, copy)
+                    cv.imwrite('Samples/images/sorted/' + filename, img)
                     os.remove(path + filename)
                     flag = 0
                 elif(key == ord('3')):
                     print(filename, " Saved as:  3")
-                    cv.imwrite('images/3/' + filename, copy)
-                    cv.imwrite('images/sorted/' + filename, img)
+                    cv.imwrite('Samples/images/3/' + filename, copy)
+                    cv.imwrite('Samples/images/sorted/' + filename, img)
                     os.remove(path + filename)
                     flag = 0
                 elif(key == ord('4')):
                     print(filename, " Saved as:  4")
-                    cv.imwrite('images/4/' + filename, copy)
-                    cv.imwrite('images/sorted/' + filename, img)
+                    cv.imwrite('Samples/images/4/' + filename, copy)
+                    cv.imwrite('Samples/images/sorted/' + filename, img)
                     os.remove(path + filename)
                     flag = 0
                 elif(key == ord('j')):
