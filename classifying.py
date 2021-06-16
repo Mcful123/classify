@@ -68,7 +68,7 @@ for filename in os.listdir(path):
                 print(filename, " saved for later")
                 # cv.imwrite('C:/Users/chomi/Desktop/later/' + filename, copy)
                 flag = 0
-            elif(key == ord('p')):
+            elif(key == ord('c')):
                 flag = 2
             else:
                 print("Invalid key press")
