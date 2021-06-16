@@ -1,6 +1,7 @@
 
 
 'opencv-python' package is required if trying to run the classifying.py file<br />
+
 Inside the Samples folder is an executable that can be run with no dependencies or libraries. <br />
 
 Here are some examples of the images you have to sort <br />
