@@ -60,7 +60,7 @@ for filename in os.listdir(path):
                 flag = 0
             elif(key == ord('4')):
                 print(filename, " Saved as:  4")
-                cv.imwrite('images/40/' + filename, copy)
+                cv.imwrite('images/4/' + filename, copy)
                 cv.imwrite('images/sorted/' + filename, img)
                 os.remove(path + filename)
                 flag = 0
