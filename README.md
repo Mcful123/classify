@@ -8,5 +8,6 @@ Here are some examples of the images you have to sort <br />
 Press '0' for empty (or close to empty) crucibles <br />
 Press '1' through '4' to judge how much sample is in each crucible.  <br />
 With '1' being the lowest amount and '4' being highest. <br />
-Pressing 'L' will skip current photo to be judged for later at the end.     <br />
-Pressing 'C' will allow you to save and quit <br />
+Pressing 'J' will skip current photo to be judged for later at the end.     <br />
+Pressing 'K' will tell you how many images are left to be classified <br />
+Pressing 'L' will allow you to save and quit <br />
